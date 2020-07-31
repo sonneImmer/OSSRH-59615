@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: shellchain.command.IssueCommandTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.087 s <<< FAILURE! - in shellchain.command.IssueCommandTest
+testissue(shellchain.command.IssueCommandTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Username may not be null
+	at shellchain.command.IssueCommandTest.testissue(IssueCommandTest.java:78)
+
+testregisterObject(shellchain.command.IssueCommandTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Username may not be null
+	at shellchain.command.IssueCommandTest.testregisterObject(IssueCommandTest.java:64)
+
+testIssueCommand(shellchain.command.IssueCommandTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalArgumentException: Username may not be null
+	at shellchain.command.IssueCommandTest.testissue(IssueCommandTest.java:78)
+	at shellchain.command.IssueCommandTest.testIssueCommand(IssueCommandTest.java:158)
+
